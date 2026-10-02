@@ -247,7 +247,7 @@ rather than a one-command install. To run the pieces here:
 
 ```bash
 git clone <this repo>
-cd aihylu-showcase
+cd aihylu
 
 cp .env.example .env
 #  then fill in .env — it ships with names only, never values
