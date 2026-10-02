@@ -1,0 +1,25 @@
+# Secrets — never commit
+.env
+.env.local
+*.env.local
+secrets.*
+token*.json
+credentials/
+client_secret*
+*.pem
+*.key
+id_rsa*
+
+# Agent private state — personal, never published
+memory/
+media/
+history.json
+*.sqlite
+*.db
+
+# Runtime junk
+.venv/
+__pycache__/
+*.pyc
+node_modules/
+.DS_Store
